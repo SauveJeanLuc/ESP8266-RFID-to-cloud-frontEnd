@@ -1,0 +1,37 @@
+{
+  "name": "new-grapes-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start:dev": "pm2 restart \"KAR Frontend\"",
+    "build": "next build"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bizcharts": "^4.1.10",
+    "bootstrap": "^4.5.3",
+    "crypto-js": "^4.0.0",
+    "jquery": "^3.5.1",
+    "jwt-decode": "^3.1.2",
+    "moment": "^2.29.1",
+    "next": "10.0.4",
+    "nprogress": "^0.2.0",
+    "popper.js": "^1.16.1",
+    "react": "17.0.1",
+    "react-bootstrap": "^1.4.3",
+    "react-circular-progressbar": "^2.0.3",
+    "react-datetime": "^3.0.4",
+    "react-dom": "17.0.1",
+    "react-image-crop": "^8.6.9",
+    "react-js-pagination": "^3.0.3",
+    "react-redux": "^7.2.2",
+    "react-reveal": "^1.2.2",
+    "react-toastify": "^7.0.3",
+    "react-vis": "^1.11.7",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "swiper": "^6.5.0",
+    "validatorjs": "^3.22.1"
+  }
+}

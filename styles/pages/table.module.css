@@ -1,0 +1,132 @@
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+    font-size: 13px;
+    font-family: system-ui;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+ .table th{
+    font-size: 13px;
+}
+
+ .scrollTable {
+       width: 80vw;
+      overflow-x: scroll;
+      z-index: 0;
+ }
+ .scrollTable th {
+   width: 100%;
+ }
+.active {
+  background-color: #39ccf3ed;
+  font-weight: bolder;
+  color: white !important;
+}
+
+.th {
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.td {
+  letter-spacing: 0.4px;
+  font-size: 14px;
+  color: #707070;
+}
+.td span {
+  font-weight: lighter !important;
+}
+.td span.pending {
+  color: white;
+  background: #FFD151;
+   padding: 4.6px 9px;
+  font-size: 9px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+.td span.pending:hover {
+  background-color: #F8C537;
+}
+.td span.inactive {
+  color: white;
+  background: #ef3f2c;
+   padding: 4.6px 9px;
+  font-size: 9px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+.td span.inactive:hover {
+  background-color: #ca3625;
+}
+.td span.active {
+  color: white;
+  background: #34ce57;
+  padding: 4.6px 9px;
+  font-size: 9px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+.td span.active:hover {
+  background-color: #28a745;
+}
+
+.td span.primary {
+  color: white;
+  background: rgba(0, 60, 255, 0.575);
+  padding: 4.6px 9px;
+  font-size: 9px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+.td span.primary:hover {
+  background-color: rgba(0, 60, 255, 0.575);
+    opacity: 0.8;
+
+}
+
+.td span.info {
+  color: white;
+  background:#007bff;
+  padding: 4.6px 9px;
+  font-size: 9px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+.td span.info:hover {
+  background-color: #007bff;
+  opacity: 0.8;
+}
+
+
+.td span.purple {
+  color: white;
+  background:#34187a;
+  padding: 4.6px 9px;
+  font-size: 9px;
+  font-family: sans-serif;
+  cursor: pointer;
+  border-radius: 9999px;
+}
+.td span.purple:hover {
+  background-color: #34187a;
+  opacity: 0.8;
+}
+
+
+
+.td span {
+  cursor: pointer;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}

@@ -1,0 +1,36 @@
+.loading.h-10 {
+    height: 20px !important;
+}
+
+.loading.h-8 {
+    height: 12px !important;
+}
+
+.loading.h-30 {
+    height: 30px !important;
+}
+
+.loading.h-100 {
+    height: 170px !important;
+}
+
+.loading{
+    background-color: #eee;
+    background-image: linear-gradient(90deg, #eeeeee,#FFFFFF,#eeeeee);
+    background-size: 200px 100%;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 1;
+    width: 100%;
+    animation: loadingAnimation 1s ease-in-out infinite
+}
+
+@keyframes loadingAnimation {
+    0% {
+        background-position: -200px 0;
+    }
+    100% {
+        background-position: calc(200px + 100%) 0;
+    }
+}
